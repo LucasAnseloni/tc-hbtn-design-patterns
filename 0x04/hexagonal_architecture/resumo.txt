@@ -1,0 +1,5 @@
+Arquitetura Hexagonal
+
+A Arquitetura Hexagonal é uma arquitetura de software que é parecida com a arquitetura limpa, no qual utiliza alguns conceitos da arquitetura limpa, mas divide as classes de um sistema em dois grupos: classe de domínio e classe relacionadas. Ela foi criada por Alistair Cockburn nos meados dos anos 90.
+Essa arquitetura traz bastantes benefícios, em grandes aplicações com divisões por camadas em aplicações muito complexas com o encapsulamento da lógica, aplicações com integrações com a utilização de interfaces e serviços, assim garante a aplicação uma fácil manutenção e alta escabilidade. A grande diferença da arquitetura limpa e da arquitetura hexagonal é que a hexagonal ela é dividida por classes de domínios e classes e classes relacionadas(portas e adaptadores).
+Esse tipo de arquitetura não é em todos os casos que realmente valerá a pena sua utilização, pois, em sistemas muito pequenos ou que raramente irá gerar trabalho de manutenção ou atualizações talvez não seja tão interessante, devida ao alto custo de implementações.
